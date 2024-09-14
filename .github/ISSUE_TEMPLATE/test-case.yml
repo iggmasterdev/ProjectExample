@@ -1,7 +1,8 @@
 name: Test Case
 description: Issue for Test Case
 labels: ["test_case"]
-test_case:
+body:
+ test_case:
   id: "TC-001"  # Unique Test Case ID
   title: "Test Login Functionality"  # Title of the Test Case
   pre_conditions:

@@ -1,0 +1,33 @@
+test_case:
+  id: "TC-001"  # Unique Test Case ID
+  title: "Test Login Functionality"  # Title of the Test Case
+  pre_conditions:
+    - "Ensure the application is running."
+    - "User is logged in with valid credentials."
+    - "Any other specific preconditions."
+  test_steps:
+    - step: 1
+      action: "Navigate to the login page."
+      expected_result: "Login page is displayed."
+    - step: 2
+      action: "Enter valid username and password."
+      expected_result: "User is logged in successfully."
+    - step: 3
+      action: "Navigate to the dashboard."
+      expected_result: "Dashboard page is displayed with user-specific data."
+  test_data:
+    - username: "testuser@example.com"
+    - password: "password123"
+    - "Any other data"
+  expected_result: "User should be able to log in successfully and see the dashboard."
+  actual_result: ""  # To be filled after executing the test case
+  post_conditions:
+    - "Logout the user."
+    - "Clear cookies or cache if needed."
+    - "Any other specific post-conditions."
+  test_execution:
+    executed_by: ""  # Tester Name
+    date_of_execution: ""  # MM/DD/YYYY
+    status: ""  # Pass / Fail / Blocked
+    defect_id: ""  # Link to related bug report (if applicable)
+  additional_notes: ""  # Any additional observations or remarks
